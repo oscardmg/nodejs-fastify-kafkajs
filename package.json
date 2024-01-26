@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-fastify-kafkajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sinclair/typebox": "^0.32.13",
+    "fastify": "^4.25.2",
+    "fastify-plugin": "^4.5.1",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.6",
+    "typescript": "^5.3.3"
+  }
+}
